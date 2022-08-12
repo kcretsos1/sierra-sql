@@ -4,7 +4,7 @@
 -- 08/12/2022
 
 SELECT
---brp.best_title as title,
+brp.best_title as title,
 'b'||bv.record_num||'a' as bib_record_number,
 'i'||iv.record_num||'a' as item_record_number,
 iv.barcode,
